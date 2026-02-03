@@ -1,0 +1,175 @@
+{
+    "configVersion": 2,
+    "appIdentifier": "com.siemensinternal.fscappMakeItNative",
+    "appName": "SCN App DEV",
+    "bundleName": {
+        "main": "fscappNative",
+        "dev": "fscappNativeDev"
+    },
+    "deviceTarget": {
+        "phone": true,
+        "tablet": true
+    },
+    "orientation": {
+        "portrait": true,
+        "landscape": true
+    },
+    "permissions": [
+        {
+            "title": "Camera",
+            "name": "android.permission.CAMERA",
+            "platform": "android",
+            "required": false
+        },
+        {
+            "title": "Fine Location",
+            "name": "android.permission.ACCESS_FINE_LOCATION",
+            "platform": "android",
+            "required": false
+        },
+        {
+            "title": "Coarse Location",
+            "name": "android.permission.ACCESS_COARSE_LOCATION",
+            "platform": "android",
+            "required": false
+        },
+        {
+            "title": "Background Location",
+            "name": "android.permission.ACCESS_BACKGROUND_LOCATION",
+            "platform": "android",
+            "required": false
+        },
+        {
+            "title": "Location - When In Use Usage",
+            "name": "NSLocationWhenInUseUsageDescription",
+            "purpose": "Standortzugriff für Ortsauflösung benötigt",
+            "platform": "ios",
+            "required": true
+        },
+        {
+            "title": "Location - Always And When in Use Usage",
+            "name": "NSLocationAlwaysAndWhenInUseUsageDescription",
+            "purpose": "Dauerhafter Standortzugriff für Ortsauflösung benötigt",
+            "platform": "ios",
+            "required": true
+        },
+        {
+            "title": "Camera Usage",
+            "name": "NSCameraUsageDescription",
+            "purpose": "Kamera wird für Fotos und Barcodes benötigt",
+            "platform": "ios",
+            "required": false
+        },
+        {
+            "title": "Internet",
+            "name": "android.permission.INTERNET",
+            "platform": "android",
+            "required": true
+        },
+        {
+            "title": "System Alert Window",
+            "name": "android.permission.SYSTEM_ALERT_WINDOW",
+            "platform": "android",
+            "required": true
+        },
+        {
+            "title": "Location - Always Usage",
+            "name": "NSLocationAlwaysUsageDescription",
+            "purpose": "Dauerhafter Standortzugriff für Ortsauflösung benötigt",
+            "platform": "ios",
+            "required": true
+        },
+        {
+            "title": "Location Hardware",
+            "name": "android.permission.LOCATION_HARDWARE",
+            "platform": "android",
+            "required": false
+        },
+        {
+            "title": "Photo Library Usage",
+            "name": "NSPhotoLibraryUsageDescription",
+            "purpose": "Zugriff auf Fotos für Upload",
+            "platform": "ios",
+            "required": false
+        },
+        {
+            "title": "Photo Library Add Usage",
+            "name": "NSPhotoLibraryAddUsageDescription",
+            "purpose": "Fotos speichern bis Onlineverbindung vorhanden",
+            "platform": "ios",
+            "required": false
+        },
+        {
+            "title": "Network State",
+            "name": "android.permission.ACCESS_NETWORK_STATE",
+            "platform": "android",
+            "required": false
+        },
+        {
+            "title": "Read External Storage",
+            "name": "android.permission.READ_EXTERNAL_STORAGE",
+            "platform": "android",
+            "required": false
+        },
+        {
+            "title": "Write External Storage",
+            "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+            "platform": "android",
+            "required": false
+        },
+        {
+            "title": "Speech Recognition Usage",
+            "name": "NSSpeechRecognitionUsageDescription",
+            "purpose": "Texterkennung für Bericht",
+            "platform": "ios",
+            "required": false
+        }
+    ],
+    "capabilities": {
+        "deepLink": {
+            "value": "siemensinternfscappdev",
+            "enabled": true,
+            "android": {
+                "webLinks": [
+                    {
+                        "host": "",
+                        "path": ""
+                    }
+                ]
+            }
+        },
+        "maps": {
+            "value": "",
+            "enabled": false
+        },
+        "mapsIos": {
+            "enabled": false
+        },
+        "pushNotifications": {
+            "enabled": false
+        },
+        "crashlytics": {
+            "enabled": false
+        },
+        "firebaseAndroid": {
+            "enabled": false
+        },
+        "firebaseIos": {
+            "enabled": false
+        },
+        "localNotifications": {
+            "enabled": true
+        },
+        "appCenterOTA": {
+            "enabled": false
+        },
+        "nativeOTA": {
+            "enabled": true
+        }
+    },
+    "appVersion": "1.1.0",
+    "buildNumber": 1,
+    "runtimeUrl": "https://fsc-app-accp.mx.lowcode.siemens.cloud/",
+    "hermesEnabled": true,
+    "cookieEncryptionEnabled": false
+}

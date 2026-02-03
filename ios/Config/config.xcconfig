@@ -1,0 +1,9 @@
+BUNDLE_DISPLAY_NAME = SCN App DEV
+BUNDLE_IDENTIFIER = com.siemensinternal.fscappMakeItNative
+
+PRODUCT_BUNDLE_IDENTIFIER = $(BUNDLE_IDENTIFIER)$(BUNDLE_IDENTIFIER_APPEND)
+
+RUNTIME_URL = https:\/\/fsc-app-accp.mx.lowcode.siemens.cloud\/
+
+PRODUCT_NAME = fscappNative
+HERMES_ENABLED = YES

@@ -123,11 +123,24 @@
             "purpose": "Texterkennung für Bericht",
             "platform": "ios",
             "required": false
+        },
+        {
+            "title": "Record Audio",
+            "name": "android.permission.RECORD_AUDIO",
+            "platform": "android",
+            "required": false
+        },
+        {
+            "title": "Siri Usage",
+            "name": "NSSiriUsageDescription",
+            "purpose": "To use that feature, the app needs to access siri.",
+            "platform": "ios",
+            "required": false
         }
     ],
     "capabilities": {
         "deepLink": {
-            "value": "siemensinternfscappdev",
+            "value": "makescnnative",
             "enabled": true,
             "android": {
                 "webLinks": [
@@ -168,7 +181,7 @@
         }
     },
     "appVersion": "1.1.0",
-    "buildNumber": 1,
+    "buildNumber": 2,
     "runtimeUrl": "https://fsc-app-accp.mx.lowcode.siemens.cloud/",
     "hermesEnabled": true,
     "cookieEncryptionEnabled": false

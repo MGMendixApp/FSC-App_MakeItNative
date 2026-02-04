@@ -7,6 +7,7 @@
     "configure": "native-mobile-toolkit configure --config-path='./config.json' --verbose"
   },
   "dependencies": {
+    "@expo/config-plugins": "2.0.4",
     "@gorhom/bottom-sheet": "^5.1.1",
     "@mendix/native": "9.2.2",
     "@op-engineering/op-sqlite": "9.2.7",
@@ -22,6 +23,7 @@
     "@react-native-documents/picker": "12.0.0",
     "@react-native-masked-view/masked-view": "0.3.1",
     "@react-native-picker/picker": "2.11.0",
+    "@react-native-voice/voice": "3.2.4",
     "@react-navigation/native": "7.0.14",
     "@swan-io/react-native-browser": "0.4.1",
     "react-native": "0.77.3",

@@ -129,13 +129,6 @@
             "name": "android.permission.RECORD_AUDIO",
             "platform": "android",
             "required": false
-        },
-        {
-            "title": "Siri Usage",
-            "name": "NSSiriUsageDescription",
-            "purpose": "To use that feature, the app needs to access siri.",
-            "platform": "ios",
-            "required": false
         }
     ],
     "capabilities": {
@@ -181,7 +174,7 @@
         }
     },
     "appVersion": "1.1.0",
-    "buildNumber": 2,
+    "buildNumber": 3,
     "runtimeUrl": "https://fsc-app-accp.mx.lowcode.siemens.cloud/",
     "hermesEnabled": true,
     "cookieEncryptionEnabled": false

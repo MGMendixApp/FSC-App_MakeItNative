@@ -1,7 +1,7 @@
 {
     "configVersion": 2,
     "appIdentifier": "com.siemensinternal.fscappMakeItNative",
-    "appName": "SCN App DEV",
+    "appName": "Make SCN Native",
     "bundleName": {
         "main": "fscappNative",
         "dev": "fscappNativeDev"
@@ -174,7 +174,7 @@
         }
     },
     "appVersion": "1.1.0",
-    "buildNumber": 3,
+    "buildNumber": 4,
     "runtimeUrl": "https://fsc-app-accp.mx.lowcode.siemens.cloud/",
     "hermesEnabled": true,
     "cookieEncryptionEnabled": false

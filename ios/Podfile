@@ -92,6 +92,17 @@ post_install do |installer|
     # :ccache_enabled => true
   )
 
+# Fix fmt 11.0.2 consteval compilation error with Xcode 26.4+
+  fmt_base = File.join(installer.sandbox.root, 'fmt', 'include', 'fmt', 'base.h')
+  if File.exist?(fmt_base)
+    content = File.read(fmt_base)
+    patched = content.gsub(/^#\s*define FMT_USE_CONSTEVAL 1$/, '# define FMT_USE_CONSTEVAL 0')
+    if patched != content
+      File.chmod(0644, fmt_base)
+      File.write(fmt_base, patched)
+      puts ":white_check_mark: Patched fmt/base.h: FMT_USE_CONSTEVAL set to 0"
+    end
+  end
 
   installer.pods_project.build_configurations.each do |config|
     config.build_settings['ENABLE_BITCODE'] = 'NO'

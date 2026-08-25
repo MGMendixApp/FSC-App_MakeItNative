@@ -72,11 +72,9 @@ def common_pods
   # These pods are added by Native Builder UI (NBUI) and should not be modified under any circumstances.
   # Do not make any changes to the pods in this section.
   # REQUIRED PODS START
-
-  # Required MendixNative dependency
+# Required MendixNative dependency
   pod 'SSZipArchive'
   pod 'RNCAsyncStorage', :path=> "../node_modules/@react-native-async-storage/async-storage", :modular_headers => true
-
   # REQUIRED PODS END
 end
 

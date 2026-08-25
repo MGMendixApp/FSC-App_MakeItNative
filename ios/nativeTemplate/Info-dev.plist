@@ -40,8 +40,6 @@
 		<key>NSAllowsLocalNetworking</key>
 		<true/>
 	</dict>
-	<key>NSLocalNetworkUsageDescription</key>
-	<string>Diese App benötigt Zugriff auf das lokale Netzwerk, um kompatible Geräte zu finden.</string>
 	<key>NSBluetoothAlwaysUsageDescription</key>
 	<string>This app may need access to your Bluetooth connection</string>
 	<key>NSBluetoothPeripheralUsageDescription</key>

@@ -23,7 +23,7 @@
     <key>CFBundleSignature</key>
     <string>????</string>
     <key>CFBundleVersion</key>
-    <string>9</string>
+    <string>10</string>
     <key>GoogleMapsApiKey</key>
     <string/>
     <key>LSApplicationQueriesSchemes</key>
@@ -40,6 +40,10 @@
       <key>NSAllowsLocalNetworking</key>
       <false/>
     </dict>
+    <key>NSLocalNetworkUsageDescription</key>
+    <string>Zugriff auf Netzwerkname wird benötigt</string>
+    <key>Hotspot Configuration</key>
+    <string>Verbinden zum Netzwerk wird benötigt</string>
     <key>NSCameraUsageDescription</key>
     <string>Kamera wird für Fotos und Barcodes benötigt</string>
     <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>

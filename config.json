@@ -193,7 +193,7 @@
         }
     },
     "appVersion": "1.1.0",
-    "buildNumber": 9,
+    "buildNumber": 10,
     "runtimeUrl": "https://fsc-app-accp.mx.lowcode.siemens.cloud/",
     "hermesEnabled": true,
     "cookieEncryptionEnabled": false

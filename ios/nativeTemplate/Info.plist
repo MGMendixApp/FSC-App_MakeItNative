@@ -23,7 +23,7 @@
     <key>CFBundleSignature</key>
     <string>????</string>
     <key>CFBundleVersion</key>
-    <string>11</string>
+    <string>12</string>
     <key>GoogleMapsApiKey</key>
     <string/>
     <key>LSApplicationQueriesSchemes</key>
@@ -113,14 +113,18 @@
       </dict>
     </array>
     <key>FirebaseMessagingAutoInitEnabled</key>
-    <false/>
+    <true/>
     <key>FirebaseAppDelegateProxyEnabled</key>
-    <false/>
+    <true/>
     <key>NSPhotoLibraryAddUsageDescription</key>
     <string>Fotos speichern bis Onlineverbindung vorhanden</string>
     <key>NSSpeechRecognitionUsageDescription</key>
     <string>Texterkennung für Bericht</string>
     <key>NSSiriUsageDescription</key>
     <string>To use that feature, the app needs to access siri.</string>
+    <key>UIBackgroundModes</key>
+    <array>
+      <string>remote-notification</string>
+    </array>
   </dict>
 </plist>

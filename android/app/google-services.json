@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "371635548388",
+    "project_id": "fsc-app-makeitnative",
+    "storage_bucket": "fsc-app-makeitnative.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:371635548388:android:0188e5053e0768dcbffcf1",
+        "android_client_info": {
+          "package_name": "com.siemensinternal.fscappMakeItNative"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD85KbkoIH4SfSxQ4B7xtktrNvXzoxqVPw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:371635548388:android:384b3bd53d126bc3bffcf1",
+        "android_client_info": {
+          "package_name": "com.siemensinternal.fscappMakeItNative.developerapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD85KbkoIH4SfSxQ4B7xtktrNvXzoxqVPw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,4 +1,7 @@
 {
+    "@react-native-firebase/app": "20.1.0",
+    "@react-native-firebase/messaging": "20.1.0",
+    "@react-native-firebase/crashlytics": "20.1.0",
     "@react-native-community/netinfo": "11.5.2",
     "react-native-vision-camera": "4.7.3",
     "react-native-webview": "13.13.2",

@@ -171,16 +171,16 @@
             "enabled": false
         },
         "pushNotifications": {
-            "enabled": false
+            "enabled": true
         },
         "crashlytics": {
-            "enabled": false
+            "enabled": true
         },
         "firebaseAndroid": {
-            "enabled": false
+            "enabled": true
         },
         "firebaseIos": {
-            "enabled": false
+            "enabled": true
         },
         "localNotifications": {
             "enabled": true
@@ -193,7 +193,7 @@
         }
     },
     "appVersion": "1.1.0",
-    "buildNumber": 11,
+    "buildNumber": 12,
     "runtimeUrl": "https://fsc-app-accp.mx.lowcode.siemens.cloud/",
     "hermesEnabled": true,
     "cookieEncryptionEnabled": false
